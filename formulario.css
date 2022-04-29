@@ -1,0 +1,66 @@
+html{
+    background-color: #00b0b9a1;
+}
+.principal{
+    width: 100%;
+    margin: none;
+    display: flex; 
+    margin-top: 50px; 
+    justify-content: center;
+    color: white;
+}
+
+/*----------------------seccion izquierda------------------------*/
+.img {
+    width: 50%;
+    background-image: url(https://tecnologiaicv.files.wordpress.com/2018/06/bh-advisor-dribbble.gif?w=640);
+    position: relative;
+}
+
+/*-----------------------seccion derecha--------------------------*/
+.conteiner{
+    background-color: #02465A;
+    padding: 25px;
+    width: 250px;
+}
+.conteiner h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+.formulario{
+    display:  grid;
+    font-size: large;
+}
+.formulario label{
+    font-weight:bold;
+}
+.formulario input{
+    color: rgb(104, 104, 104);
+    font-size: medium;
+    height: 24px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(207, 201, 201);
+    border-radius: 6px;
+}
+.botones{
+    display: flex;
+    justify-content: space-around;
+}
+.botones button{
+    width: 100px;
+    height: 30px;
+    font-size: large;
+    border: 1px solid white;
+    color: white;
+    border-radius: 6px;
+    background-color: #00B0B9;
+}
+.botones button:hover{
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+.botones button:active{
+    background-color: black;
+}

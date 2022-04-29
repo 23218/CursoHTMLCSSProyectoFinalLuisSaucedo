@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./formulario.css">
+</head>
+<body>
+    <main class="principal">
+        <section class="conteiner">
+            <h1>Bienvenid@</h1>
+            <form action="send" class="formulario">
+                <label for="name">Nombre Completo</label>
+                <input type="text" id="name" placeholder="ejemplo: Luis Ernesto">
+                 <label >Sexo</label>
+                <div class="sexos" id="sexos">
+                   
+                    <input type="radio" name="sexo" value="Hombre">Hombre
+                    <input type="radio" name="sexo" value="Mujer">Mujer
+                    <input type="radio" name="sexo" value="Otro">Otro
+                   
+                </div>
+                    
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" placeholder="ejemplo: correo@gmail.com">
+                
+                <label for="contra">Contraseña</label>
+                <input type="password" placeholder="***********">
+                <div class="botones">
+                    <button type="reset">Reset</button>
+                    <button type="button"> Submit </button>
+                </div>
+            </form>
+        </section>
+        <section class="img">
+           
+        </section>
+        </main>
+    </body>
+</html>

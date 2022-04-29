@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*------------------- Header -------------------- */
+
+header{
+    margin-bottom: 30px;
+    height: 50px;
+}
+header ul {
+    display: grid;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+    margin-top: -30px;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li:nth-child(2){
+    margin-top: -40px;
+}
+
+
+/*------------------- Escuela de código -------------------- */
+
+
+.conteiner-EC{
+    padding-top: 30px;
+    background-color: #8DE5ED;
+    color: #031e46;
+    width: 100%;
+    height: 450px;
+    place-content: center;
+    text-align: center;
+    font-size: large;
+}
+.conteiner-EC h1{
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+.conteiner-EC p{
+    padding: 15px;
+    font-weight: 600;
+}
+.imagenes{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.imagenes img{
+    border-radius: 8px;
+    width: 30vw;
+    height: 30vh;
+    box-shadow: 4px 4px 10px rgb(0, 0, 0);
+}
+
+.imagenes img:hover{
+    box-shadow: 4px 4px 10px white;
+    margin: 0px px 150px 0px;
+    transform: scale(1.07);
+    transition: .5s;
+}
+
+.boton-EC{
+    width: 200px;
+    height: 35px;
+    color: white;
+    font-size: large;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #02465A;
+    border-radius: 8px;
+}
+.boton-EC a {
+    text-decoration: none;
+    color: white;
+    
+}
+.boton-EC:hover{
+    transform: scale(1.05);
+    transition: .2s;
+}
+.boton-EC:active{
+    background-color: black;
+}
+
+/*------------------- Educación fisica pilares -------------------- */
+
+.conteiner-AF{
+    padding-top: 30px;
+    background-color: #00B0B9;
+    color: #031e46;
+    width: 100%;
+    height: 700px;
+    place-content: center;
+    text-align: center;
+}
+.conteiner-AF > h1{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: xx-large;
+}
+
+.conteiner-AF p{
+    padding-left: 15px;
+    padding-right: 15px ;
+    padding-top: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.slider{
+    display: flex;
+    justify-content: space-around;  
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.conteinerA{
+    color: black;
+    width: 250px;
+    height: 420px;
+    background-color:#ffffff ;
+    border-radius: 8px;
+    object-fit: cover;
+    overflow: hidden;
+    box-shadow: 4px 4px 10px rgb(0, 0, 0);
+}
+
+.conteinerA img {
+    width: 250px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.conteinerA h1 {
+    color: #031e46;
+}
+.conteinerA:hover {
+    transform: scale(1.10);
+    transition: .2s;
+}
+
+.boton-AF{
+    width: 200px;
+    height: 35px;
+    color: white;
+    font-size: large;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #02465A;
+    border-radius: 8px;
+}
+.boton-AF a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.boton-AF:hover{
+    transform: scale(1.05);
+    transition: .2s;
+}
+.boton-AF:active{
+    background-color: black;
+}
+
+/*------------------- Ir hacia formulario -------------------- */
+
+.loger{
+    width: 100%;
+    height: 410px;
+    display: flex;
+    background-color: #8DE5ED;
+}
+.info {
+    display: grid;
+    place-content: center;
+    width: 100%; 
+    text-align: center;
+    justify-items: center;
+    color: #031e46;
+}
+.info h1{
+    font-size: xx-large;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.info p {
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.img {
+    width: 100%;
+    background-image: url(https://tecnologiaicv.files.wordpress.com/2018/06/bh-advisor-dribbble.gif?w=640);
+}
+
+.boton-IN{
+    width: 200px;
+    height: 35px;
+    font-size: large;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #02465A;
+    border-radius: 8px;
+}
+.boton-IN a {
+    text-decoration: none;
+    color: white;
+}
+
+.boton-IN:hover{
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+.boton-IN:active{
+    background-color: black;
+}
+
+/*------------------- Footer -------------------- */
+.conteiner-FT {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50px;
+    place-content : center;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social img {
+    text-decoration: none;
+    width: 20px;
+	filter: invert(1) hue-rotate(180deg) contrast(2);
+}
+.social a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
