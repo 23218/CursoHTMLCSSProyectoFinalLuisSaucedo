@@ -64,3 +64,17 @@ html{
 .botones button:active{
     background-color: black;
 }
+
+@media (max-width:800px) {
+    .img {
+        display: none;
+    }
+    main{
+        background-image: url(https://tecnologiaicv.files.wordpress.com/2018/06/bh-advisor-dribbble.gif?w=640) ;
+    }
+
+    .conteiner{
+        background-color: #02455ace;
+    }
+    
+}
